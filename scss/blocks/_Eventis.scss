@@ -1,0 +1,91 @@
+.Eventis__blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+    width: 1280px;
+    height: 295px;
+    margin-top: 96px;
+    .Eventis__blog__title{
+         display: flex;
+         align-items: center;
+         gap: 30px;
+        .Eventis__blog__title-hr{
+            width: 1062px;
+            height: 0px;
+            background: #E5E5E5;
+        }
+        .Eventis__blog__title-h1{
+            color: var(--primary-text, #1D2130);
+font-family: Roboto;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%; 
+        }
+    }
+    .Eventis__blog__bg{
+        display: flex;
+        gap: 24px;
+        .Eventis__blog__bg-text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 628px;
+            height: 191px;
+            border-radius: 8px;
+            background: var(--green-secondary, #BEF3C0);
+            .Eventis__blog__bg-text2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                width: 540px;
+                height: 119px;
+                .Eventis__blog__bg-text2-h2{
+                    color: var(--primary-text, #1D2130);
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    margin-top: -40px;
+                    .text2-h2-str{
+                        color: var(--primary-text, #1D2130);
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%; /* 57.6px */
+font-variant: small-caps;
+                    }
+                }
+                .Eventis__blog__bg-text2-title{
+
+                    .Eventis__blog__bg-text2-title-h3{
+                        color: var(--primary-text, #1D2130);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 2px;
+text-transform: uppercase;
+                    }
+                    .Eventis__blog__bg-text2-title-h4{
+                        width: 381px;
+color: var(--primary-text, #1D2130);
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+                    }
+                }
+            }
+        }
+    }
+}
